@@ -2,7 +2,7 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
-A mono repo of all things, Kindlenext UI.
+A mono repo of all things, Kindlenext Core UI & Utils.
 
 ## Get Started
 
