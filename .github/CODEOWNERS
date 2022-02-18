@@ -1,5 +1,8 @@
 # Learn how to add code owners here:
 # https://help.github.com/en/articles/about-code-owners
 
-*          @ranajahanzaib
+*          @ranajahanzaib @Shoaibv2 @Nadiakhanv2 @Abdullah-k
 /.github/  @ranajahanzaib
+
+/packages/kindlenext-utils/          @ranajahanzaib
+/packages/kindlenext-ui/             @ranajahanzaib @Shoaibv2 @Nadiakhanv2 @Abdullah-k

@@ -1,9 +1,38 @@
-# Project Title
+# Kindlenext UI
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
+A mono repo of all things, Kindlenext UI.
 
-This is another Open Source Project.
+## Get Started
+
+### Installation
+
+Install with NPM:
+
+```bash
+npm i @kindlenext/ui
+```
+
+or, with Yarn:
+
+```bash
+yarn add @kindlenext/ui
+```
+
+### Usage
+
+```tsx
+import { Button } from "@kindlenext/ui";
+
+export default function App() {
+  return (
+    <div>
+      <Button>Click me</Button>
+    </div>
+  );
+}
+```
 
 ## Contributing
 
@@ -13,7 +42,7 @@ We'd love to accept your patches and contributions to this project. There are ju
 
 This project follows [Contributor Covenant](https://www.contributor-covenant.org/)
 as it's Code of Conduct, and we expect all project participants to adhere to it.
-Please read the [full guide](./CODE_OF_CONDUCT.md) so that you can understand 
+Please read the [full guide](./CODE_OF_CONDUCT.md) so that you can understand
 what actions will not be tolerated.
 
 ### [Contributing Guide](./CONTRIBUTING.md)
