@@ -23,6 +23,8 @@ dist
 .next
 target
 .out
+out
+/**/out/**
 
 # Editors
 **/.idea
