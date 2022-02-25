@@ -1,0 +1,27 @@
+{
+  "name": "@kindlenext/finance-consultant",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start ",
+    "dev": "next dev -p 4006",
+    "lint": "TIMING=1 next lint",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next"
+  },
+  "dependencies": {
+    "@kindlenext/ui": "*",
+    "@kindlenext/utils": "*",
+    "next": "^12.0.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@kindlenext/tsconfig": "*",
+    "@types/node": "^17.0.12",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "eslint-preset-kindlenext": "*",
+    "typescript": "^4.5.4"
+  }
+}
