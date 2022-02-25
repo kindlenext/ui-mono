@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "out",
+    "site": "kui-social-media-agency",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

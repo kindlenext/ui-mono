@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "out",
+    "site": "kui-personal",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
