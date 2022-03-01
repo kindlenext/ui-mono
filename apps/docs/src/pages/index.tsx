@@ -7,13 +7,14 @@
 
 import { Button } from "@kindlenext/ui";
 import { useIsomorphicLayoutEffect } from "@kindlenext/utils";
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function Docs() {
   useIsomorphicLayoutEffect(() => {
     console.log("Kindlenext Docs Page");
   }, []);
   return (
-    <div>
+    <div className="container py-5">
       <h1>Kindlenext Docs</h1>
       <Button>Click me</Button>
     </div>
